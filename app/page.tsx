@@ -1,3 +1,4 @@
+"use client";
 import {
   ArrowRight,
   BadgeCheck,
@@ -17,6 +18,10 @@ import {
   Zap,
 } from "lucide-react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+const closeMobileMenu = () => {
+  document.querySelector<HTMLDetailsElement>(".mobile-menu")?.removeAttribute("open");
+};
 
 const whatsappUrl =
   "https://wa.me/5519999021882?text=Olá%2C%20gostaria%20de%20conhecer%20os%20serviços%20da%20BraConsig.";
@@ -81,12 +86,12 @@ export default function Home() {
               <X className="menu-close" size={24} />
             </summary>
             <nav aria-label="Navegação para celular">
-              <a href="#inicio">Início</a>
-              <a href="#sobre">Sobre</a>
-              <a href="#servicos">Serviços</a>
-              <a href="#beneficios">Benefícios</a>
-              <a href="#contato">Contato</a>
-              <a className="button button-gold" href="#contato">
+              <a href="#inicio" onClick={closeMobileMenu}>Início</a>
+              <a href="#sobre" onClick={closeMobileMenu}>Sobre</a>
+              <a href="#servicos" onClick={closeMobileMenu}>Serviços</a>
+              <a href="#beneficios" onClick={closeMobileMenu}>Benefícios</a>
+              <a href="#contato" onClick={closeMobileMenu}>Contato</a>
+              <a className="button button-gold" href="#contato" onClick={closeMobileMenu}>
                 Solicitar Diagnóstico
               </a>
             </nav>
@@ -235,9 +240,9 @@ export default function Home() {
                 <span><FaWhatsapp size={22} /></span>
                 <div><small>WhatsApp</small><strong>19 99902-1882</strong></div>
               </a>
-              <a href="mailto:contato@braconsiggestaofinanceira.com.br">
+              <a href="mailto:financeiro@braconsiggestaofinanceira.com.br">
                 <span><Mail size={21} /></span>
-                <div><small>E-mail</small><strong>contato@braconsiggestaofinanceira.com.br</strong></div>
+                <div><small>E-mail</small><strong>financeiro@braconsiggestaofinanceira.com.br</strong></div>
               </a>
               <a href="https://www.google.com/maps/search/?api=1&query=Rua%20Campos%20Salles%2C%202535%20-%20C%2061%2C%20Valinhos%20-%20SP%2C%2013272-350" target="_blank" rel="noreferrer">
                 <span><MapPin size={21} /></span>
@@ -271,7 +276,7 @@ export default function Home() {
             <h3>Contato</h3>
             <a href="tel:+5519999021882"><Phone size={15} /> 19 99902-1882</a>
             <a href={whatsappUrl} target="_blank" rel="noreferrer"><FaWhatsapp size={16} /> WhatsApp</a>
-            <a href="mailto:contato@braconsiggestaofinanceira.com.br"><Mail size={15} /> contato@braconsiggestaofinanceira.com.br</a>
+            <a href="mailto:financeiro@braconsiggestaofinanceira.com.br"><Mail size={15} /> financeiro@braconsiggestaofinanceira.com.br</a>
             <a href="https://www.instagram.com/braconsig.gestaofinanceira/" target="_blank" rel="noreferrer"><FaInstagram size={16} /> @braconsig.gestaofinanceira</a>
           </div>
           <div>
