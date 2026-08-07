@@ -240,9 +240,9 @@ export default function Home() {
                 <span><FaWhatsapp size={22} /></span>
                 <div><small>WhatsApp</small><strong>19 99902-1882</strong></div>
               </a>
-              <a href="mailto:financeiro@braconsiggestaofinanceira.com.br">
+              <a href="mailto:financeiro@braconsig.com.br">
                 <span><Mail size={21} /></span>
-                <div><small>E-mail</small><strong>financeiro@braconsiggestaofinanceira.com.br</strong></div>
+                <div><small>E-mail</small><strong>financeiro@braconsig.com.br</strong></div>
               </a>
               <a href="https://www.google.com/maps/search/?api=1&query=Rua%20Campos%20Salles%2C%202535%20-%20C%2061%2C%20Valinhos%20-%20SP%2C%2013272-350" target="_blank" rel="noreferrer">
                 <span><MapPin size={21} /></span>
@@ -276,7 +276,7 @@ export default function Home() {
             <h3>Contato</h3>
             <a href="tel:+5519999021882"><Phone size={15} /> 19 99902-1882</a>
             <a href={whatsappUrl} target="_blank" rel="noreferrer"><FaWhatsapp size={16} /> WhatsApp</a>
-            <a href="mailto:financeiro@braconsiggestaofinanceira.com.br"><Mail size={15} /> financeiro@braconsiggestaofinanceira.com.br</a>
+            <a href="mailto:financeiro@braconsig.com.br"><Mail size={15} /> financeiro@braconsig.com.br</a>
             <a href="https://www.instagram.com/braconsig.gestaofinanceira/" target="_blank" rel="noreferrer"><FaInstagram size={16} /> @braconsig.gestaofinanceira</a>
           </div>
           <div>
