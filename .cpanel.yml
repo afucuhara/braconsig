@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/braconsiggestaof/public_html/
+    - npm ci
+    - npm run build:cpanel
+    - /bin/rm -rf ${DEPLOYPATH:?}*
+    - /bin/cp -a out/. $DEPLOYPATH
