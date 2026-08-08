@@ -204,16 +204,16 @@ button, input, textarea { font: inherit; }
 .cta-strip-inner small { color: rgba(255,255,255,.58); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
 .cta-strip-inner strong { margin-top: 3px; font-family: Georgia, serif; font-size: 20px; font-weight: 500; }
 
-footer { padding: 48px 0 20px; color: #4f6174; background: white; border-top: 1px solid rgba(8,34,67,.1); }
-.footer-grid { display: grid; grid-template-columns: 1.45fr 1.15fr 1fr; gap: 42px; }
+footer { padding: 34px 0 16px; color: #4f6174; background: white; border-top: 1px solid rgba(8,34,67,.1); }
+.footer-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 72px; align-items: start; }
 .footer-brand img { width: 300px; height: 80px; object-fit: contain; object-position: left center; opacity: 1; }
-.footer-brand p { max-width: 280px; color: #68798a; font-size: 11px; letter-spacing: .1em; line-height: 1.75; }
+.footer-brand p { max-width: 320px; color: #68798a; font-size: 11px; letter-spacing: .1em; line-height: 1.75; }
 footer h3 { margin: 15px 0 20px; color: #9c701b; font-size: 15px; text-transform: uppercase; letter-spacing: .1em; }
 footer a { margin-bottom: 12px; display: flex; align-items: center; gap: 8px; color: #40556c; font-size: 13.5px; line-height: 1.55; }
 footer p { margin: 0; color: #586b7e; font-size: 13.5px; line-height: 1.85; }
 .footer-social { width: 42px; height: 42px; display: grid; place-items: center; color: var(--navy-900); background: var(--gold-pale); border: 1px solid var(--gold); border-radius: 50%; }
 .footer-instagram { display: flex; align-items: center; gap: 11px; color: var(--navy-900); }
-.footer-bottom { margin-top: 30px; padding-top: 17px; display: flex; justify-content: space-between; border-top: 1px solid rgba(8,34,67,.1); color: rgba(8,34,67,.52); font-size: 11.5px; }
+.footer-bottom { margin-top: 22px; padding-top: 17px; display: flex; justify-content: space-between; border-top: 1px solid rgba(8,34,67,.1); color: rgba(8,34,67,.52); font-size: 11.5px; }
 .whatsapp-float { position: fixed; z-index: 40; right: 24px; bottom: 24px; width: 55px; height: 55px; display: grid; place-items: center; color: white; background: #20b45a; border-radius: 50%; box-shadow: 0 12px 30px rgba(0,0,0,.25); transition: transform .2s ease; }
 .whatsapp-float:hover { transform: translateY(-4px) scale(1.03); }
 
