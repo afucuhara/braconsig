@@ -244,9 +244,9 @@ export default function Home() {
                 <span><Mail size={21} /></span>
                 <div><small>E-mail</small><strong>financeiro@braconsig.com.br</strong></div>
               </a>
-              <a href="https://www.google.com/maps/search/?api=1&query=Rua%20Campos%20Salles%2C%202535%20-%20C%2061%2C%20Valinhos%20-%20SP%2C%2013272-350" target="_blank" rel="noreferrer">
+              <a href="https://www.google.com/maps/search/?api=1&query=Valinhos%2C%20SP" target="_blank" rel="noreferrer">
                 <span><MapPin size={21} /></span>
-                <div><small>Localização em Valinhos/SP</small><strong>Rua Campos Salles, 2535 - C 61<br />Vila Faustina II - CEP 13.272-350</strong></div>
+                <div><small>Localização</small><strong>Valinhos-SP</strong></div>
               </a>
               <a href="https://www.instagram.com/braconsig.gestaofinanceira/" target="_blank" rel="noreferrer">
                 <span><FaInstagram size={23} /></span>
@@ -257,7 +257,7 @@ export default function Home() {
           <div className="contact-map reveal reveal-delay">
             <iframe
               title="Mapa da BraConsig em Valinhos"
-              src="https://maps.google.com/maps?hl=pt-BR&q=Rua%20Campos%20Salles%2C%202535%2C%20Vila%20Faustina%20II%2C%20Valinhos%20-%20SP%2C%2013272-350&ie=UTF8&z=16&output=embed"
+              src="https://maps.google.com/maps?hl=pt-BR&q=Valinhos%2C%20SP&ie=UTF8&z=13&output=embed"
               loading="eager"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
@@ -278,10 +278,6 @@ export default function Home() {
             <a href={whatsappUrl} target="_blank" rel="noreferrer"><FaWhatsapp size={16} /> WhatsApp</a>
             <a href="mailto:financeiro@braconsig.com.br"><Mail size={15} /> financeiro@braconsig.com.br</a>
             <a href="https://www.instagram.com/braconsig.gestaofinanceira/" target="_blank" rel="noreferrer"><FaInstagram size={16} /> @braconsig.gestaofinanceira</a>
-          </div>
-          <div>
-            <h3>Endereço</h3>
-            <p>Rua Campos Salles, 2535 - C 61<br />Vila Faustina II - Valinhos/SP<br />CEP 13.272-350</p>
           </div>
         </div>
         <div className="container footer-bottom">
